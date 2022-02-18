@@ -4,9 +4,21 @@
     <meta charset="utf-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="marquee.js"></script>
   </head>
   <body>
-    <h1>Helo.</h1>
-    <p>test paragraph</p>
+    <div class="marquee">
+      <p id="marqueeTitle"> Iacopo Ruzzier Iacopo Ruzzier Iacopo Ruzzier Iacopo Ruzzier Iacopo Ruzzier Iacopo Ruzzier</p>
+    </div>
+    <div class="main">
+      <h1>Helo.</h1>
+      <p>test paragraph</p>
+    </div>
+    <script>
+      new Marquee('marqueeTitle', {
+        textcolor: 'green',
+        speed: 0.2
+      });
+    </script>
   </body>
 </html>
