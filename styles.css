@@ -8,22 +8,39 @@
   src: url(fonts/PicNic-Regular.woff);
 }
 
+@font-face {
+  font-family: DM Mono Regular;
+  src: url(fonts/DMMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: DM Mono Italic;
+  src: url(fonts/DMMono-Italic.ttf);
+}
+
 * {
-  color: white;
+  color: #003b01;
   border: 0;
   margin: 0;
-  font-family: monospace;
+  font-family: 'DM Mono Regular';
   text-align: center;
 }
 
 body {
   background-color: pink;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+
 }
 
 h1 {
-  font-size: 1em;
-  color: blue;
-  font-family: 'GISTO';
+  font-size: 3em;
+  color: #003b01;
+  font-family: 'PicNic';
 }
 
 .main-link {
@@ -31,6 +48,11 @@ h1 {
   top: 100px;
   left: 100px;
   transform: translate(-50%,-50%);
+  z-index: auto;
+}
+
+.main-link:hover {
+  z-index: 1000;
 }
 
 .main-link a {
@@ -38,9 +60,9 @@ h1 {
   font-family: 'PicNic';
   text-decoration: none;
   font-weight: normal;
+  color: inherit;
 }
 
 .main-link a:hover {
   font-weight: bolder;
-  background: black;
 }
