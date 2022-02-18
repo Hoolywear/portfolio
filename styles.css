@@ -18,17 +18,19 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 1em;
   color: blue;
   font-family: 'GISTO';
 }
 
 .main-link {
   position: absolute;
+  top: 100px;
+  left: 100px;
 }
 
 .main-link a {
-  font-size: 4rem;
+  font-size: 4em;
   font-family: 'PicNic';
   text-decoration: none;
   font-weight: normal;
@@ -36,20 +38,4 @@ h1 {
 
 .main-link a:hover {
   font-weight: bolder;
-}
-
-.screen-top {
-  top: 100px;
-}
-
-.screen-bottom {
-  bottom: 100px;
-}
-
-.screen-left {
-  left: 100px;
-}
-
-.screen-right {
-  right: 100px;
 }
