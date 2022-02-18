@@ -28,19 +28,23 @@
 
 body {
   background-color: pink;
-
-    align-items: center;
-    justify-content: center;
-}
-
-.main {
-
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   font-size: 3em;
   color: #003b01;
   font-family: 'PicNic';
+}
+
+h1 a {
+font-family: 'PicNic';
+text-decoration: none;
+} :active {
+  text-decoration: none;
+} :hover {
+  color: white;
 }
 
 .main-link {
@@ -65,4 +69,5 @@ h1 {
 
 .main-link a:hover {
   font-weight: bolder;
+  color: white;
 }
