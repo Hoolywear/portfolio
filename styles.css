@@ -1,3 +1,13 @@
+@font-face {
+  font-family: GISTO;
+  src: url(fonts/GISTOFont-Regular.otf);
+}
+
+@font-face {
+  font-family: PicNic;
+  src: url(fonts/PicNic-Regular.woff);
+}
+
 * {
   background-color: pink;
   color: white;
@@ -10,13 +20,5 @@
 h1 {
   font-size: 3rem;
   color: blue;
-}
-
-.marquee {
-  color: green;
-  font-size: 2rem;
-  transform: rotate(-90deg);
-  position: absolute;
-  top: 0;
-  right: 0;
+  font-family: 'GISTO';
 }
