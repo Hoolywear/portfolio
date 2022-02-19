@@ -1,3 +1,5 @@
+/* Custom fonts */
+
 @font-face {
   font-family: GISTO;
   src: url(fonts/GISTOFont-Regular.otf);
@@ -18,12 +20,14 @@
   src: url(fonts/DMMono-Italic.ttf);
 }
 
+/* Basic styling */
+
 * {
   color: #003b01;
   border: 0;
   margin: 0;
   font-family: 'DM Mono Regular';
-  text-align: center;
+
 }
 
 body {
@@ -36,6 +40,7 @@ h1 {
   font-size: 3em;
   color: #003b01;
   font-family: 'PicNic';
+  text-align: center;
 }
 
 h1 a {
@@ -46,6 +51,8 @@ text-decoration: none;
 } :hover {
   color: white;
 }
+
+/* Homepage styling */
 
 .main-link {
   position: absolute;
@@ -70,4 +77,21 @@ text-decoration: none;
 .main-link a:hover {
   font-weight: bolder;
   color: white;
+}
+
+/* Books page styling */
+
+.books-list {
+  list-style: none;
+}
+
+.books-list-item {
+  padding: 25px;
+  font-size: 1.3em;
+}
+
+.books-list-item a {
+  text-decoration: none;
+} :active {
+  text-decoration: none;
 }
