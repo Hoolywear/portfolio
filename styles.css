@@ -26,7 +26,7 @@
   color: #003b01;
   border: 0;
   margin: 0;
-  font-family: 'DM Mono Regular';
+  font-family: sans-serif;
 
 }
 
@@ -97,4 +97,23 @@ text-decoration: none;
   text-decoration: none;
 } :active {
   text-decoration: none;
+}
+
+.menu-items a {
+  position: absolute;
+  top: 20px;
+}
+.menu-items a img:hover {
+  width: 110%;
+  height: 110%;
+}
+
+.menu-items:nth-child(1) {
+  left: 20px;
+} :nth-child(2) {
+  left: 80px;
+} :nth-child(3) {
+  right: 80px;
+} :nth-child(4) {
+  right: 20px;
 }
