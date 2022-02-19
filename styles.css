@@ -83,6 +83,9 @@ text-decoration: none;
 
 .books-list {
   list-style: none;
+  list-style-position: outside;
+  list-style-image: url('sun.svg');
+  margin-left: 2vw;
 }
 
 .books-list-item {

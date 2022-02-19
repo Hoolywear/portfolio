@@ -12,8 +12,8 @@ for ( var i=0; i < booksListItems.length; i++ ) {
     endLeft = randomLeft;
     console.log(endLeft);
 
-    thisDiv.style.marginLeft = endLeft +"vw";
-    console.log(thisDiv.style.marginLeft);
+    thisDiv.style.paddingLeft = endLeft +"vw";
+    console.log(thisDiv.style.paddingLeft);
 }
 
 function getRandomNumber(min, max) {
